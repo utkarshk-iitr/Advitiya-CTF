@@ -1,0 +1,20 @@
+The given codes were geohashes,
+we converted the geohash to corresponding lat and long values to the nearest integer, using google maps, giving us total of 8 integers 
+
+geohash: 
+CJCF2222+22 --> 78,69
+9MR72222+22 --> 66,85
+CJ872222+22 --> 76,65
+CJJQ2222+22 --> 82,75
+
+python code:
+li = [78,69,66,85,76,65,82,75]
+s = ""
+print(li)
+for i in li:
+    s += str(chr(i))
+print(s)
+
+s = NEBULARK
+
+
